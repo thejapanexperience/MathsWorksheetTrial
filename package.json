@@ -1,0 +1,35 @@
+{
+  "name": "maths_worksheet_trial",
+  "version": "1.0.0",
+  "description": "maths worksheet",
+  "main": "main.js",
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejapanexperience/MathsWorksheetTrial.git"
+  },
+  "author": "Richard Mands",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thejapanexperience/MathsWorksheetTrial/issues"
+  },
+  "homepage": "https://github.com/thejapanexperience/MathsWorksheetTrial#readme"
+}
