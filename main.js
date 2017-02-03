@@ -28,7 +28,7 @@ function checkAnswer(qnum) {
   let rightAnswer = ans[qnum]
   console.log('rightAnswer: ', rightAnswer)
   if (answer == rightAnswer){
-    document.getElementById(`q${qnum}Comment`).innerHTML=`Well Done! ${answer} is correct!`
+    document.getElementById(`q${qnum}Comment`).innerHTML=`Well done! ${answer} is correct!`
     document.getElementById(`q${qnum}ans`).setAttribute("disabled", "disabled")
     score += 1
     completed += 1
