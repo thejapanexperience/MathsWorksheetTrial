@@ -11,24 +11,15 @@
     <h2>Simple Addition Questions</h2>
     <h3>Do your best!</h3>
 
-    <form action="" id="q1">
+    <form action="#" id="q1">
       <p>Question 1</p>
       <label id="q1num1" value="4" >4</label>
       <label id="q1sign" value="+" >+</label>
       <label id="q1num2" value="3" >3</label>
       <label >=</label>
-      <input onchange="q1Answer(this.value)" type="number" >
+      <input id="q1ans" type="number" >
 
-      <script type="text/javascript">
-
-        function q1Answer(value) {
-          console.log('value', value)
-          console.log('q1Answer');
-        }
-
-      </script>
-
-      <!-- <button type="button" value="">Let's See!</button> -->
+      <button onclick="q1Answer()">Let's See!</button>
       <span id="q1Comment">Fingers Crossed!</span>
     </form>
 
@@ -39,7 +30,7 @@
       <label id="q2num2" value="6" >6</label>
       <label >=</label>
       <input type="number" >
-      <!-- <button type="button" value="">Let's See!</button> -->
+      <button type="button" value="">Let's See!</button>
       <span id="q2Comment">Fingers Crossed!</span>
     </form>
 
