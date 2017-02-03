@@ -17,3 +17,7 @@ for (var i = 1; i < numberOfQuestions + 1; i++) {
   }
   console.log('ans: ', ans)
 }
+
+// function q1Answer() {
+//   console.log('q1Answer');
+// }

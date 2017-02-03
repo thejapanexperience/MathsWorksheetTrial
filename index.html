@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Maths Worksheet Trial</title>
+
+    <script type="text/javascript">
+
+      var q1Answer = function() {
+        console.log('q1Answer');
+      }
+
+    </script>
   </head>
   <body>
     <h1>Maths Worksheet Trial</h1>
@@ -15,7 +23,7 @@
       <label id="q1sign" value="+" >+</label>
       <label id="q1num2" value="3" >3</label>
       <label >=</label>
-      <input type="number" >
+      <input onChange=q1Answer() type="number" >
       <!-- <button type="button" value="">Let's See!</button> -->
       <span id="q1Comment">Fingers Crossed!</span>
     </form>
