@@ -19,8 +19,10 @@ for (var i = 1; i < numberOfQuestions + 1; i++) {
 }
 
 function checkAnswer(qnum) {
+  console.log('checkAnswer');
+  console.log('question number ', qnum);
+  console.log('qnum: ', qnum)
   let value = document.getElementById(`q${qnum}ans`).value
   console.log('value', value)
-  console.log('checkAnswer');
   document.getElementById('q1Comment').innerHTML=`Well Done! ${value} is correct!`
 }
