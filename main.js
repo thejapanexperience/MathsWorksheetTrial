@@ -21,8 +21,13 @@ for (var i = 1; i < numberOfQuestions + 1; i++) {
 function checkAnswer(qnum) {
   console.log('checkAnswer');
   console.log('question number ', qnum);
-  console.log('qnum: ', qnum)
-  let value = document.getElementById(`q${qnum}ans`).value
-  console.log('value', value)
-  document.getElementById('q1Comment').innerHTML=`Well Done! ${value} is correct!`
+  let answer = document.getElementById(`q${qnum}ans`).value
+  console.log('answer', answer)
+  let rightAnswer = ans[qnum]
+  console.log('rightAnswer: ', rightAnswer)
+  if (answer == rightAnswer){
+    document.getElementById(`q${qnum}Comment`).innerHTML=`Well Done! ${answer} is correct!`
+  } else if (answer, answer != rightAnswer){
+    document.getElementById(`q${qnum}Comment`).innerHTML=`Unlucky! ${answer} is incorrect :( Try again?`
+  }
 }
