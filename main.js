@@ -27,6 +27,7 @@ function checkAnswer(qnum) {
   console.log('rightAnswer: ', rightAnswer)
   if (answer == rightAnswer){
     document.getElementById(`q${qnum}Comment`).innerHTML=`Well Done! ${answer} is correct!`
+    document.getElementById(`q${qnum}ans`).setAttribute("disabled", "disabled")
   } else if (answer, answer != rightAnswer){
     document.getElementById(`q${qnum}Comment`).innerHTML=`Unlucky! ${answer} is incorrect :( Try again?`
   }
