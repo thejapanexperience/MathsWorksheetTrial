@@ -18,9 +18,9 @@ for (var i = 1; i < numberOfQuestions + 1; i++) {
   console.log('ans: ', ans)
 }
 
-function checkAnswer() {
-  let value = document.getElementById('q1ans').value
+function checkAnswer(qnum) {
+  let value = document.getElementById(`q${qnum}ans`).value
   console.log('value', value)
   console.log('checkAnswer');
-  document.getElementById('q1Comment').innerHTML='Well Done!'
+  document.getElementById('q1Comment').innerHTML=`Well Done! ${value} is correct!`
 }
