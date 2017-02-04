@@ -34,6 +34,7 @@ function checkAnswer(qnum) {
     document.getElementById('upperMessage').innerHTML=`Keep going!!`
     if (completed === numberOfQuestions){
       document.getElementById('upperMessage').innerHTML=`Amazing! You finished all the questions!`
+      document.getElementById('score').innerHTML=`Your final score is ${score}.`
     }
   } else if (isNaN(parseInt(answer))){
     document.getElementById(`q${qnum}Comment`).innerHTML=`Oops! Something went wrong. Try again.`
